@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#load {
+    background-image: url('../../cinsImages/loadedBackImg.jpg');
+    width: 100%;
+    background-repeat: round;
+    height: 755px;
+    margin: 0 auto;
+}
+#loadingBox {
+    height: 390px;
+    background: rgba(23, 51, 102, 0.32);
+    position: absolute;
+    padding: 0 30px;
+    top: 170px;
+    right: 200px;
+    color: #fff;
+}
+#loadingBox > p {
+    color: #0E8DDD;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.loadinput {
+    background: rgba(34, 81, 133, 0.5);  
+    border: 1px solid #0E8DDD;
+    width: 460px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 20px;
+}
+#checkword {
+    background-color: #214D7F;  
+    background: rgba(34, 81, 133, 0.5);
+    border: 1px solid #0E8DDD;
+    width: 300px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 20px;
+}
+#codePic {    
+    background: rgba(34, 81, 133, 0.5);
+    border: 1px solid #0E8DDD;
+    width: 100px;
+    padding: 21px 5px;
+    margin: 10px 0;
+    color: #fff;
+    float: right;
+}
+#checkBox {
+    margin: 5px 0;
+}
+#forgetPassWord {
+    color: #129EF0;
+    float: right;
+    margin: 5px 0;
+}
+#forgetPassWord:hover, :active {
+    color: #2FE4DB;
+}
+#sureBtn {
+    width: 472px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    background-color: #0BA5FF;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    clear: both;
+}
+#sureBtn:hover, :active {
+    background-color: #3A67C4;
+}
+#registration {
+    color: #129EF0;
+    text-align: center;
+    margin: 5px 0;
+}
+#registration:hover, :active {
+    color: #2FE4DB;
+}
+#registrationPage {
+    display: none;
+    width: 100%;
+    height: 755px;
+    position: absolute;
+    top: 0;
+    left: 76px;
+    background: rgba(0, 0, 0, 0.5);
+}
+#registerWindow {
+    position: absolute;
+    top: 60px;
+    left: 468px;
+    background-color: #fff;
+}
+#registerWindow > p {
+    color: #44a0f5;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+.registerInput {
+    font-size: 24px;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    color: #bfbfbf;
+    padding: 10px 30px;
+    margin: 10px 50px;
+}
+#registerCheckword {
+    width: 160px;
+    font-size: 24px;
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    color: #bfbfbf;
+    padding: 10px 30px;
+    margin: 10px 10px 10px 50px;
+}
+#registerCodePic {
+    border: 1px solid #bfbfbf;
+    border-radius: 10px;
+    color: #bfbfbf;
+    width: 45px;
+    padding: 24px 30px;
+    margin: 10px 50px 10px 10px;
+    float: right;
+}
+#regisBtn {
+    width: 354px;
+    height: 64px;
+    border-radius: 32px;
+    margin: 30px 50px 50px 50px;
+    background-color: #0ba5ff;
+    border: 0;
+    font-size: 24px;
+    color: #fff;
+}
