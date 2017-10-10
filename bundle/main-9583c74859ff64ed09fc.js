@@ -60,7 +60,7 @@
 /******/ 	
 /******/ 	
 /******/ 	var hotApplyOnUpdate = true;
-/******/ 	var hotCurrentHash = "0797fed9613c1d96fbb1"; // eslint-disable-line no-unused-vars
+/******/ 	var hotCurrentHash = "9583c74859ff64ed09fc"; // eslint-disable-line no-unused-vars
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule; // eslint-disable-line no-unused-vars
@@ -733,7 +733,7 @@ exports = module.exports = __webpack_require__(4)(undefined);
 
 
 // module
-exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n#load {\n    background-image: url(" + __webpack_require__(5) + ");\n    width: 100%;\n    background-repeat: round;\n    height: 755px;\n    margin: 0 auto;\n}\n#loadingBox {\n    height: 390px;\n    background: rgba(23, 51, 102, 0.32);\n    position: absolute;\n    padding: 0 30px;\n    top: 170px;\n    right: 200px;\n    color: #fff;\n}\n#loadingBox > p {\n    color: #0E8DDD;\n    font-size: 30px;\n    padding-top: 10px;\n    text-align: center;\n}\n.loadinput {\n    background: rgba(34, 81, 133, 0.5);  \n    border: 1px solid #0E8DDD;\n    width: 460px;\n    padding: 10px 5px;\n    margin: 10px 0;\n    color: #fff;\n    font-size: 20px;\n}\n#checkword {\n    background-color: #214D7F;  \n    background: rgba(34, 81, 133, 0.5);\n    border: 1px solid #0E8DDD;\n    width: 300px;\n    padding: 10px 5px;\n    margin: 10px 0;\n    color: #fff;\n    font-size: 20px;\n}\n#codePic {    \n    background: rgba(34, 81, 133, 0.5);\n    border: 1px solid #0E8DDD;\n    width: 100px;\n    padding: 21px 5px;\n    margin: 10px 0;\n    color: #fff;\n    float: right;\n}\n#checkBox {\n    margin: 5px 0;\n}\n#forgetPassWord {\n    color: #129EF0;\n    float: right;\n    margin: 5px 0;\n}\n#forgetPassWord:hover, :active {\n    color: #2FE4DB;\n}\n#sureBtn {\n    width: 472px;\n    padding: 10px 5px;\n    margin: 10px 0;\n    background-color: #0BA5FF;\n    border: 0;\n    color: #fff;\n    font-size: 20px;\n    clear: both;\n}\n#sureBtn:hover, :active {\n    background-color: #3A67C4;\n}\n#registration {\n    color: #129EF0;\n    text-align: center;\n    margin: 5px 0;\n}\n#registration:hover, :active {\n    color: #2FE4DB;\n}\n#registrationPage {\n    display: none;\n    width: 100%;\n    height: 755px;\n    position: absolute;\n    top: 0;\n    left: 76px;\n    background: rgba(0, 0, 0, 0.5);\n}\n#registerWindow {\n    position: absolute;\n    top: 60px;\n    left: 468px;\n    background-color: #fff;\n}\n#registerWindow > p {\n    color: #44a0f5;\n    font-size: 40px;\n    text-align: center;\n    margin: 20px 0;\n}\n.registerInput {\n    font-size: 24px;\n    border: 1px solid #bfbfbf;\n    border-radius: 10px;\n    color: #bfbfbf;\n    padding: 10px 30px;\n    margin: 10px 50px;\n}\n#registerCheckword {\n    width: 160px;\n    font-size: 24px;\n    border: 1px solid #bfbfbf;\n    border-radius: 10px;\n    color: #bfbfbf;\n    padding: 10px 30px;\n    margin: 10px 10px 10px 50px;\n}\n#registerCodePic {\n    border: 1px solid #bfbfbf;\n    border-radius: 10px;\n    color: #bfbfbf;\n    width: 45px;\n    padding: 24px 30px;\n    margin: 10px 50px 10px 10px;\n    float: right;\n}\n#regisBtn {\n    width: 354px;\n    height: 64px;\n    border-radius: 32px;\n    margin: 30px 50px 50px 50px;\n    background-color: #0ba5ff;\n    border: 0;\n    font-size: 24px;\n    color: #fff;\n}", ""]);
+exports.push([module.i, "* {\n    margin: 0;\n    padding: 0;\n}\n#load {\n    background-image: url(" + __webpack_require__(5) + ");\n    width: 100%;\n    background-repeat: round;\n    height: 755px;\n    margin: 0 auto;\n}\n#loadingBox {\n    height: 390px;\n    background: rgba(23, 51, 102, 0.55);\n    position: absolute;\n    padding: 0 30px;\n    top: 170px;\n    right: 200px;\n    color: #fff;\n}\n#loadingBox > p {\n    color: #0E8DDD;\n    font-size: 30px;\n    padding-top: 10px;\n    text-align: center;\n}\n.loadinput {\n    background: rgba(34, 81, 133, 0.7);  \n    border: 1px solid #0E8DDD;\n    width: 460px;\n    padding: 10px 5px;\n    margin: 10px 0;\n    color: #fff;\n    font-size: 20px;\n}\n#checkword {\n    background-color: #214D7F;  \n    background: rgba(34, 81, 133, 0.7);\n    border: 1px solid #0E8DDD;\n    width: 300px;\n    padding: 10px 5px;\n    margin: 10px 0;\n    color: #fff;\n    font-size: 20px;\n}\n#codePic {    \n    background: rgba(34, 81, 133, 0.7);\n    border: 1px solid #0E8DDD;\n    width: 100px;\n    padding: 21px 5px;\n    margin: 10px 0;\n    color: #fff;\n    float: right;\n}\n#checkBox {\n    margin: 5px 0;\n}\n#forgetPassWord {\n    color: #129EF0;\n    float: right;\n    margin: 5px 0;\n}\n#forgetPassWord:hover, #forgetPassWord:focus {\n    color: #2FE4DB;\n}\n#sureBtn {\n    width: 472px;\n    padding: 10px 5px;\n    margin: 10px 0;\n    background-color: #0BA5FF;\n    border: 0;\n    color: #fff;\n    font-size: 20px;\n    clear: both;\n}\n#sureBtn:hover, #sureBtn:focus {\n    background-color: #3A67C4;\n}\n#registration {\n    color: #129EF0;\n    text-align: center;\n    margin: 5px 0;\n}\n#registration:hover, #registration:focus {\n    color: #2FE4DB;\n}\n#registrationPage {\n    display: none;\n    width: 100%;\n    background-repeat: round;\n    height: 755px;\n    position: absolute;\n    top: 0;\n    background: rgba(0, 0, 0, 0.5);\n}\n#registerWindow {\n    position: absolute;\n    border-radius: 15px;\n    top: 60px;\n    left: 530px;\n    background-color: #fff;\n}\n#x {\n    float: right;\n    margin: 10px 10px;\n    background-image: url(" + __webpack_require__(6) + ");\n    width: 20px;\n    height: 20px;\n}\n#registerWindow > p {\n    color: #44a0f5;\n    font-size: 40px;\n    position: absolute;\n    left: 180px;\n    top: 20px;\n}\n.registerInput {\n    font-size: 20px;\n    border: 1px solid #c4c4c4;\n    border-radius: 10px;\n    color: #000;\n    padding: 10px 30px;\n    margin: 10px 24px 10px 60px;\n}\n#registerInputFst {\n    margin-top: 90px;\n}\n.registerInput:hover, .registerInput:focus {\n    outline: none;\n    border: 1px solid #0ba5ff;\n}\n#registerCheckword {\n    width: 120px;\n    font-size: 20px;\n    border: 1px solid #c4c4c4;\n    border-radius: 10px;\n    color: #000;\n    padding: 10px 40px;\n    margin: 10px 10px 10px 60px;\n    float: left;\n}\n#registerCheckword:hover, #registerCheckword:focus {\n    outline: none;\n    border: 1px solid #0ba5ff;\n}\n#registerCodePic {\n    border: 1px solid #c4c4c4;\n    border-radius: 10px;\n    width: 30px;\n    padding: 22px 30px;\n    margin: 10px 24px 10px 10px;\n    float: left;\n}\n#regisBtn {\n    width: 315px;\n    height: 64px;\n    border-radius: 32px;\n    margin: 30px 24px 50px 60px;\n    background: -webkit-gradient(linear, left top, right top, from(#32e4ec), to(#0ba5ff));\n    border: 0;\n    font-size: 24px;\n    color: #fff;\n}\n#regisBtn:hover, #regisBtn:focus {\n    outline: none;\n    border: 1px solid #3173eb;\n}", ""]);
 
 // exports
 
@@ -772,10 +772,10 @@ const getName = function (key) {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cinsCss_loadPageStyle_css__ = __webpack_require__(3);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__cinsCss_loadPageStyle_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__cinsCss_loadPageStyle_css__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__registration__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__registration__ = __webpack_require__(9);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__registration___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__registration__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rememberPassword_js__ = __webpack_require__(9);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pageOpen_js__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__rememberPassword_js__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pageOpen_js__ = __webpack_require__(11);
 
 
 
@@ -788,6 +788,12 @@ regis.onclick = __WEBPACK_IMPORTED_MODULE_1__registration___default.a;
 
 let sureLoad = document.querySelector('#sureBtn');
 sureLoad.onclick = __WEBPACK_IMPORTED_MODULE_2__rememberPassword_js__["a" /* rePassword */];
+
+let x = document.querySelector('#x');
+x.onclick = function () {
+    let registrationPage = document.querySelector('#registrationPage');
+    registrationPage.style.display = 'none';
+};
 
 /***/ }),
 /* 3 */
@@ -804,7 +810,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(6)(content, options);
+var update = __webpack_require__(7)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(true) {
@@ -909,6 +915,12 @@ module.exports = __webpack_require__.p + "../loadedBackImg-db69007156eaf0bfe1424
 /* 6 */
 /***/ (function(module, exports, __webpack_require__) {
 
+module.exports = __webpack_require__.p + "../X-cf3794e214435d876f257a01a46e792c.jpg";
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
 /*
 	MIT License http://www.opensource.org/licenses/mit-license.php
 	Author Tobias Koppers @sokra
@@ -962,7 +974,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(7);
+var	fixUrls = __webpack_require__(8);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -1278,7 +1290,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 7 */
+/* 8 */
 /***/ (function(module, exports) {
 
 
@@ -1371,7 +1383,7 @@ module.exports = function (css) {
 };
 
 /***/ }),
-/* 8 */
+/* 9 */
 /***/ (function(module, exports) {
 
 module.exports = function () {
@@ -1380,7 +1392,7 @@ module.exports = function () {
 };
 
 /***/ }),
-/* 9 */
+/* 10 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1391,15 +1403,18 @@ module.exports = function () {
 const rePassword = function () {
     let userName = document.querySelector('#userName').value;
     let passNum = document.querySelector('#passNum').value;
+    let checkBox = document.querySelector('#checkBox');
 
-    Object(__WEBPACK_IMPORTED_MODULE_0__localStorage_js__["b" /* saveName */])('cinsUserName', 'userName');
-    Object(__WEBPACK_IMPORTED_MODULE_0__localStorage_js__["b" /* saveName */])('cinsPassNum', 'passNum');
+    if (checkBox.checked) {
+        Object(__WEBPACK_IMPORTED_MODULE_0__localStorage_js__["b" /* saveName */])('cinsUserName', userName);
+        Object(__WEBPACK_IMPORTED_MODULE_0__localStorage_js__["b" /* saveName */])('cinsPassNum', passNum);
+    }
 };
 
 
 
 /***/ }),
-/* 10 */
+/* 11 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1419,6 +1434,8 @@ const pageOpen = function () {
         passNum.value = Object(__WEBPACK_IMPORTED_MODULE_0__localStorage_js__["a" /* getName */])('cinsPassNum');
         userName.innerHTML = userName.value;
         passNum.innerHTML = passNum.value;
+        let checkBox = document.querySelector('#checkBox');
+        checkBox.checked = 'checked';
     }
 };
 
