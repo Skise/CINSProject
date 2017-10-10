@@ -11,7 +11,7 @@
 }
 #loadingBox {
     height: 390px;
-    background: rgba(23, 51, 102, 0.32);
+    background: rgba(23, 51, 102, 0.55);
     position: absolute;
     padding: 0 30px;
     top: 170px;
@@ -25,7 +25,7 @@
     text-align: center;
 }
 .loadinput {
-    background: rgba(34, 81, 133, 0.5);  
+    background: rgba(34, 81, 133, 0.7);  
     border: 1px solid #0E8DDD;
     width: 460px;
     padding: 10px 5px;
@@ -35,7 +35,7 @@
 }
 #checkword {
     background-color: #214D7F;  
-    background: rgba(34, 81, 133, 0.5);
+    background: rgba(34, 81, 133, 0.7);
     border: 1px solid #0E8DDD;
     width: 300px;
     padding: 10px 5px;
@@ -44,7 +44,7 @@
     font-size: 20px;
 }
 #codePic {    
-    background: rgba(34, 81, 133, 0.5);
+    background: rgba(34, 81, 133, 0.7);
     border: 1px solid #0E8DDD;
     width: 100px;
     padding: 21px 5px;
@@ -60,7 +60,7 @@
     float: right;
     margin: 5px 0;
 }
-#forgetPassWord:hover, :active {
+#forgetPassWord:hover, #forgetPassWord:focus {
     color: #2FE4DB;
 }
 #sureBtn {
@@ -73,7 +73,7 @@
     font-size: 20px;
     clear: both;
 }
-#sureBtn:hover, :active {
+#sureBtn:hover, #sureBtn:focus {
     background-color: #3A67C4;
 }
 #registration {
@@ -81,63 +81,87 @@
     text-align: center;
     margin: 5px 0;
 }
-#registration:hover, :active {
+#registration:hover, #registration:focus {
     color: #2FE4DB;
 }
 #registrationPage {
     display: none;
     width: 100%;
+    background-repeat: round;
     height: 755px;
     position: absolute;
     top: 0;
-    left: 76px;
     background: rgba(0, 0, 0, 0.5);
 }
 #registerWindow {
     position: absolute;
+    border-radius: 15px;
     top: 60px;
-    left: 468px;
+    left: 530px;
     background-color: #fff;
+}
+#x {
+    float: right;
+    margin: 10px 10px;
+    background-image: url('../../cinsImages/X.jpg');
+    width: 20px;
+    height: 20px;
 }
 #registerWindow > p {
     color: #44a0f5;
     font-size: 40px;
-    text-align: center;
-    margin: 20px 0;
+    position: absolute;
+    left: 180px;
+    top: 20px;
 }
 .registerInput {
-    font-size: 24px;
-    border: 1px solid #bfbfbf;
+    font-size: 20px;
+    border: 1px solid #c4c4c4;
     border-radius: 10px;
-    color: #bfbfbf;
+    color: #000;
     padding: 10px 30px;
-    margin: 10px 50px;
+    margin: 10px 24px 10px 60px;
+}
+#registerInputFst {
+    margin-top: 90px;
+}
+.registerInput:hover, .registerInput:focus {
+    outline: none;
+    border: 1px solid #0ba5ff;
 }
 #registerCheckword {
-    width: 160px;
-    font-size: 24px;
-    border: 1px solid #bfbfbf;
+    width: 120px;
+    font-size: 20px;
+    border: 1px solid #c4c4c4;
     border-radius: 10px;
-    color: #bfbfbf;
-    padding: 10px 30px;
-    margin: 10px 10px 10px 50px;
+    color: #000;
+    padding: 10px 40px;
+    margin: 10px 10px 10px 60px;
+    float: left;
+}
+#registerCheckword:hover, #registerCheckword:focus {
+    outline: none;
+    border: 1px solid #0ba5ff;
 }
 #registerCodePic {
-    border: 1px solid #bfbfbf;
+    border: 1px solid #c4c4c4;
     border-radius: 10px;
-    color: #bfbfbf;
-    width: 45px;
-    padding: 24px 30px;
-    margin: 10px 50px 10px 10px;
-    float: right;
+    width: 30px;
+    padding: 22px 30px;
+    margin: 10px 24px 10px 10px;
+    float: left;
 }
 #regisBtn {
-    width: 354px;
+    width: 315px;
     height: 64px;
     border-radius: 32px;
-    margin: 30px 50px 50px 50px;
-    background-color: #0ba5ff;
+    margin: 30px 24px 50px 60px;
+    background: -webkit-gradient(linear, left top, right top, from(#32e4ec), to(#0ba5ff));
     border: 0;
     font-size: 24px;
     color: #fff;
+}
+#regisBtn:hover, #regisBtn:focus {
+    outline: none;
+    border: 1px solid #3173eb;
 }

@@ -10,3 +10,9 @@ regis.onclick = register;
 
 let sureLoad = document.querySelector('#sureBtn');
 sureLoad.onclick = rePassword;
+
+let x = document.querySelector('#x');
+x.onclick = function () {
+    let registrationPage = document.querySelector('#registrationPage')
+    registrationPage.style.display = 'none';
+}

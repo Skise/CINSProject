@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+    color: #cdcdcd;
+}
+#perFace {
+    background-color: #000;
+    color: #fff;
+    height: 20px;
+    padding: 10px 20px;
+}
+#hi {
+    float: left;
+    /*line-height: 5px;*/
+}
+#loadBtn {
+    float: right;
+    font-size: 15px;
+    /*line-height: 5px;*/
+}
+#theme {
+    height: 200px;
+    width: 80%;
+}
+.navLi {
+    display: inline-block;
+    clear: both;
+    margin: 10px 40px;
+}
+.navLi:first-child {
+    margin-left: 340px;
+}
