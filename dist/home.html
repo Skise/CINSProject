@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- <link rel="stylesheet" href="../static/style/mainPageStyle.css"> -->
+        <!-- <link rel="stylesheet" href="../static/style/style.css"> -->
+        <!-- <link rel="stylesheet" href="../../imoocFonts/style.css"> -->
+    </head>
+    <body>
+        <div id='perFace'>
+            <div id="hi">Hi~ 欢迎来到程序猿的世界</div>
+            <div id="loadBtn"><a id="loading" href="load.html">登录/注册</a></div>
+        </div>
+        <div id="theme">
+            <img id="bgImgs" src="/CINSproject/cinsPro/src/static/images/bg.jpg">
+            <div id="title">创数据学生团队</div>
+            <div id="subtitle">大数据月算法比赛</div>
+            <div id="slogan">相信世界会因为我们的努力而不同</div>
+            <div class="titleBtn" id="titleBtnFst">
+                <button class="titleLittleBtn"><a href="#showPlace">立即参赛</a></button>
+            </div>
+            <div class="titleBtn" id="titleBtnScd">
+                <button class="titleLittleBtn"><a href="#teamIntroduce">了解我们</a></button>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li class="navLi"><a href="#matchDetails" class="categoryList">比赛详情</a></li>
+                <li class="navLi"><a href="#showPlace" class="categoryList">博弈舞台</a></li>
+                <li class="navLi"><a href="#teamIntroduce" class="categoryList">团队介绍</a></li>
+                <li class="navLi"><a href="#enterUs" class="categoryList">加入我们</a></li>
+                <li class="navLi"><a href="#wantToSay" class="categoryList">想说的话</a></li>
+            </ul>
+        </nav>
+        <hr/>
+        <div id="matchDetails" class="datailPiece">
+            <div class="classificationTitle"><i class="iconfont icon-file-text"></i>比赛详情</div>
+            <div id="matchIntroduce">
+                <img id="matchIntroduceImg" src="/CINSproject/cinsPro/src/static/images/1.jpg">
+                <div>机器学习的开章，我们会看到许多不同的算法，例如Knn、决策树、朴素贝叶斯等等。这些算法都是用来解决大数据的分类问题。但有时候我们拿到的数据不一定完全或结果未知。这时候我们就需要对拿到手中的部分数据进行一系列操作，去预测缺失的部分或是预测未知的结果。</div>
+            </div>
+            <ul id="matchList">
+                <li>
+                    <div class="littleTitle"><span class="listIcon icon-pacman"></span>比赛目的</div>
+                    <div class="littleContent">紫色的沙漠,有黑色的漩涡,驼铃像一个陷阱,会将路人捕获,仙人掌下面,长出一簇贝壳,而风会变成毒蛇,给云彩触摸,初冬的季节,会有商队经过,马蹄底下却踩着,被遗忘的王国,也许你听说,这里太阳不落,温柔也伴着恶魔,会将我们吞没.</div>
+                </li>
+                <li>
+                    <div class="littleTitle"><span class="listIcon icon-pacman"></span>赛制介绍</div>
+                    <div class="littleContent"></div>
+                </li>     
+                <li>
+                    <div class="littleTitle"><span class="listIcon icon-pacman"></span>规则介绍</div>
+                    <div class="littleContent"></div>
+                </li>     
+                <li>
+                    <div class="littleTitle"><span class="listIcon icon-pacman"></span>比赛时间</div>
+                    <div class="littleContent"></div>
+                </li>     
+                <li>
+                    <div class="littleTitle"><span class="listIcon icon-pacman"></span>奖项设置</div>
+                    <div class="littleContent"></div>
+                </li>     
+            </ul>
+        </div>
+        <div id="showPlace" class="datailPiece">
+            <div class="classificationTitle"><span class="iconfont icon-quill"></span>博弈舞台</div>
+            <div id="matchArea">
+                <div id="matchTitle">
+                    <div class="subheading"><b>题目描述：</b></div>
+                    <div class="testText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;银行排队系统也称之为银行排队机、叫号显示系统。随着电子信息产品、智能产品的快速发展，以及人类生活对服务环境、服务效率的要求越来越高，尤其是在服务性行业里更是如此，因此排队系统这个概念就应运而生了。但是在一些落后的地区，没有先进的系统支持，人们还在为了排队而烦恼。有时候看到银行门口长长的队伍，许多人就直接放弃了等待。这看似普通的现象，背后却蕴含着大量有迹可循的大道理！！！聪明的你可能会说，当一个顾客刚刚走进银行的时候，你就已经知道了他会离开所在队伍的可能性，从而选对正确的队列，减少等待。预测数据并不是凭空猜测，你肯定也需要一些数据作为你预测的佐证。</div>
+                    <div class="subheading"><b>下面是为本次比赛准备的数据：</b></div>
+                    <div class="testText">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;数据以CSV文件格式下发，每一行代表每一位顾客的相关信息。数据分为两类：</div>
+                    <div class="testText">第一类是训练集（train.csv，共2000行），用于训练你的算法或计算模型。包括八个特征和一个结果（即顾客离队率）。</div>
+                    <div class="testText">第二类是测试集（test.csv，共500行，用于预测得出你本次比赛的答案。包括八个特征，结果（即顾客离队率，是你要提交给我们的答案）。</div>
+                    <div  class="testImg">
+                        <img src="/CINSproject/cinsPro/src/static/images/test1.png">
+                    </div>
+                    <div class="subSubheading"><b>数据示例：</b></div>
+                    <div class="testImg">
+                        <img src="/CINSproject/cinsPro/src/static/images/test2.jpg">
+                    </div>
+                    <div class="testText">八个特征即绿色框线部分，可以理解为会影响顾客离队率的八个因素。就好像，你小时候是否经常喝牛奶和你长大后身高超过180cm的可能性。是否常喝牛奶就是影响你身高的一个因素，即一个特征值。一个结果即红色框线部分，为顾客离队率。</div>
+                    <div class="subSubheading"><b>具体每一列的值的含义如下：</b></div>
+                    <div class="testImg">    
+                        <img src="/CINSproject/cinsPro/src/static/images/test3.jpg">
+                    </div>
+                    <div id="littleAttention"><b>来自可爱的学长学姐的提醒：</b></div>
+                    <div class="testText">必须按照下列要求提交答案，否则视作无效的提交。后果自负。</div>
+                    <div class="testTsxt">我们要求你所提交的答案文件，为CSV文件。即文件后缀名为.csv。如：</div>
+                    <div class="testImg">
+                        <img src="/CINSproject/cinsPro/src/static/images/test4.png">
+                    </div>
+                    <div class="testText">文件内容为按序排列，即你的文件的第一行数据，对应测试集的第一行的答案。请不要有任何的多余内容（甚至是空格）。如：</div>
+                    <div class="testImg">
+                        <img src="/CINSproject/cinsPro/src/static/images/test5.png">
+                    </div>
+                    <div class="subheading"><b>做题要求：</b></div>
+                    <div class="testText">你可以使用任何一种语言来编写算法或程序，只要能真实准确的表达你的想法、达到你预想的效果就好。</div>
+                    <div class="subheading"><b>判分标准：</b></div>
+                    <div class="testText">由于这次比赛是考查回归问题，得到的结果是一系列波动的值。我们采用了numpy库中相关系数的计算方法，通过命令corrcoef(yEstimate,yActual)来计算你提交的结果和答案的相关性。作为评分的标准。</div>
+                    <div class="testImg">
+                        <img src="/CINSproject/cinsPro/src/static/images/test6.png">
+                    </div>
+                    <div class="testText">最终成绩 = 椭圆内的部分* 100</div>
+                </div>
+                <div id="answerFile">
+                    <input type="file" name="answerFile" id="pushFile"/>
+                </div>
+                <div id="answerSubmit">
+                    <input type="submit" id="submitBtn" />
+                </div>
+            </div>
+        </div>
+        <div id="teamIntroduce" class="datailPiece">
+            <div class="classificationTitle"><span class="iconfont icon-home3"></span>团队介绍</div>
+            <!-- <div class="classificationIntroduction">
+                <div class="basicInformation">实验室简介</div>
+                <img src="../static/images/book.jpg" class="cinsImg" />
+                <ul class="briefIntroduction">
+                    <li class="teamName">智能与网络化系统实验室</li>
+                    <li class="teamEName">Intelligent and Networked Systems Labs(暂代)</li>
+                    <li class="teamWork">主要从事网络科学、机器学习、大数据下的网络挖掘、</li>
+                    <li class="teamWork">中文自然语言处理等交叉学科的应用基础研究</li>
+                </ul>
+            </div> -->
+            <div class="classificationIntroduction">
+                <!-- <div class="basicInformation">学生团队简介</div> -->
+                <img src="/CINSproject/cinsPro/src/static/images/stu.jpeg" class="cinsImg" />
+                <ul class="briefIntroduction">
+                    <li class="teamName">大学生创数据学生团队</li>
+                    <li class="teamEName">College students create a data student team(暂代)</li>
+                    <li class="teamWork">主要分为前端，后端，爬虫，算法和UI的学习研究</li>
+                </ul>
+            </div>
+            <div id="detailedDescription">我要控制我自己，不会让谁看见我哭泣，装作漠不关心你，不愿想起你，心痛得无法呼吸，找不到你留下的痕迹，眼睁睁的看着你，却无能为力，任你消失在世界的尽头，找不到坚强的理由，再也感觉不到你的温柔，告诉我星空在哪头，那里是否有尽头，心痛得无法呼吸，找不到昨天留下的痕迹</div>
+            
+        </div>
+        <div id="enterUs" class="datailPiece">
+            <div class="classificationTitle"><span class="iconfont icon-twitter"></span>加入我们</div>
+            <div id="meetingTime">技术分享交流会介绍暨日程安排</div>
+            <div class="biz_timtline-box">
+                <div class="biz_timeline">
+                    <div class="biz-timeline-box clearfix">
+                        <div class="biz_timeline-time">2017.10.26</div>
+                        <div class="biz_timeline-node"></div>
+                        <div class="biz_timeline-eventbox">
+                            <div class="biz_timeline-event">
+                                <div>后端技术分析报告</div>
+                                <div>地点：明理楼1102</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="biz-timeline-box clearfix">
+                        <div class="biz_timeline-time">2017.11.02</div>
+                        <div class="biz_timeline-node"></div>
+                        <div class="biz_timeline-eventbox">
+                            <div class="biz_timeline-event">
+                                <div>爬虫技术分析报告</div>
+                                <div>地点：明理楼1102</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="biz-timeline-box clearfix">
+                        <div class="biz_timeline-time">2017.11.09</div>
+                        <div class="biz_timeline-node"></div>
+                        <div class="biz_timeline-eventbox">
+                            <div class="biz_timeline-event">
+                                <div>前端技术分析报告</div>
+                                <div>地点：明理楼1102</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="biz-timeline-box clearfix">
+                        <div class="biz_timeline-time">2017.11.16</div>
+                        <div class="biz_timeline-node" id="timeLineNode-Lastchild"></div>
+                        <div class="biz_timeline-eventbox">
+                            <div class="biz_timeline-event">
+                                <div>算法技术分析报告</div>
+                                <div>地点：明理楼1102</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="wantToSay" class="datailPiece">
+            <div class="classificationTitle"><span class="iconfont icon-envelop"></span>想说的话</div>
+        </div>
+
+        <div id="navigationBar">
+            <ul>
+                <li class="navigationBarList"><a href="#matchDetails" class="categoryList">比赛详情</a></li>
+                <li class="navigationBarList"><a href="#showPlace" class="categoryList">博弈舞台</a></li>
+                <li class="navigationBarList"><a href="#teamIntroduce" class="categoryList">团队介绍</a></li>
+                <li class="navigationBarList"><a href="#enterUs" class="categoryList">加入我们</a></li>
+                <li class="navigationBarList"><a href="#wantToSay" class="categoryList">想说的话</a></li>
+            </ul>
+        </div>
+    </body>
+</html>

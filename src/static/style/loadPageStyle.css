@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#load {
+    width: 100%;
+    background-repeat: round;
+    height: 755px;
+    margin: 0 auto;
+    position: relative;
+}
+#backImg {
+    position: absolute;
+    z-index: 10;
+    height: 755px;
+    width: 1520px;
+}
+#loadingBox {
+    height: 490px;
+    background: rgba(23, 51, 102, 0.55);
+    position: absolute;
+    padding: 0 30px;
+    top: 170px;
+    right: 200px;
+    color: #fff;
+    z-index: 20;
+}
+#loadingBox > p {
+    color: #0E8DDD;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+.loadinput {
+    background: rgba(34, 81, 133, 0.7);  
+    border: 1px solid #0E8DDD;
+    width: 460px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 20px;
+}
+.filed-load {
+    padding: 10px 0;
+}
+#checkword {
+    background-color: #214D7F;  
+    background: rgba(34, 81, 133, 0.7);
+    border: 1px solid #0E8DDD;
+    width: 300px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    color: #fff;
+    font-size: 20px;
+}
+#checkword1 {
+    float: left;
+}
+#codePic {    
+    background: rgba(34, 81, 133, 0.7);
+    border: 1px solid #0E8DDD;
+    width: 135px;
+    height: 43px;
+    margin: 21px 0 20px 0;
+    padding: 0;
+    color: #fff;
+    float: right;
+}
+#verifyCode {
+    height: 43px;
+    width: 135px;
+}
+#checkBox {
+    margin: 5px 0;
+}
+#checkBox2 {
+    clear: both;
+    float: left;
+}
+#forgetPassWord {
+    color: #129EF0;
+    float: right;
+    margin: 10px 0;
+}
+#forgetPassWord:hover, #forgetPassWord:active {
+    color: #2FE4DB;
+}
+#sureBtn {
+    width: 472px;
+    padding: 10px 5px;
+    margin: 10px 0;
+    background-color: #0BA5FF;
+    border: 0;
+    color: #fff;
+    font-size: 20px;
+    clear: both;
+}
+#sureBtn:hover, #sureBtn:active {
+    background-color: #3A67C4;
+}
+#registration {
+    color: #129EF0;
+    text-align: center;
+    margin: 5px 0;
+}
+#registration:hover, #registration:active {
+    color: #2FE4DB;
+}
+#registrationPage {
+    display: none;
+    width: 100%;
+    background-repeat: round;
+    height: 755px;
+    position: absolute;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 30;
+}
+#registerWindow {
+    display: none;
+    position: absolute;
+    border-radius: 15px;
+    top: 40px;
+    left: 540px;
+    background-color: #fff;
+    z-index: 999;
+}
+#x {
+    width: 20px;
+    height: 20px;
+    top: 10px;
+    right: 10px;
+    position: absolute;
+}
+#x:hover, #x:active {
+    border: 1px solid #c4c4c4;
+}
+#registerWindow > p {
+    color: #44a0f5;
+    font-size: 40px;
+    text-align: center;
+    margin: 20px 0;
+}
+.registerInput {
+    font-size: 18px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    color: #000;
+    padding: 14px 30px;
+    margin: 0px 60px;
+}
+.registerInput:hover, .registerInput:active {
+    outline: none;
+    border: 1px solid #0ba5ff;
+}
+#registerCheckword {
+    width: 78px;
+    font-size: 18px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    color: #000;
+    padding: 14px 30px;
+    margin: 10px 0 10px 62px;
+}
+#registerCheckword:hover, #registerCheckword:active {
+    outline: none;
+    border: 1px solid #0ba5ff;
+}
+#registerCodePic {
+    border: 1px solid #c4c4c4;
+    height: 48.8px;
+    width: 120px;
+    margin: 15px 60px 10px 0;
+    float: right;
+}
+#verifyCode2 {
+    height: 48.8px;
+    width: 120px;
+}
+#regisBtn {
+    width: 277px;
+    height: 64px;
+    border-radius: 32px;
+    margin: 10px 60px 22px 60px;
+    background: -webkit-gradient(linear, left top, right top, from(#32e4ec), to(#0ba5ff));
+    border: 0;
+    font-size: 24px;
+    color: #fff;
+}
+#regisBtn:hover, #regisBtn:active {
+    outline: none;
+    border: 1px solid #3173eb;
+}
+.inputNotice {
+    position: absolute;
+    top: 77%;
+    left: 21%;
+    color: #f53a58;
+    font-size: 14px;
+}
+.filed-container {
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    width: 100%;
+    padding: 5px 0 20px 0;
+}
+#checkword-container {
+    width: 54%;
+    float: left;
+}
+
+.loadNotice {
+    position: absolute;
+    color: #ed0f0f;
+    font-size: 16px;
+}
+.signPic {
+    font-size: 14px;
+}

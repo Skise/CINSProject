@@ -1,0 +1,380 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+/*网页抬头*/
+#loading {
+    color: #ffffff;
+}
+#loading:hover, #loading:active {
+    color: #46b9f4;
+} 
+#perFace {
+    background-color: #2b343c;
+    color: #fff;
+    height: 20px;
+    padding: 15px 20px;
+}
+#hi {
+    float: left;
+}
+#loadBtn {
+    float: right;
+    font-size: 15px;
+}
+/*标题*/
+#theme {
+    height: 400px;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+#bgImgs {
+    z-index: 10;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+#title {
+    font-size: 32px;
+    color: #2e2e2e;
+    position: absolute;
+    z-index: 999;
+    left: 50px;
+    top: 100px;
+}
+#subtitle {
+    font-size: 44px;
+    z-index: 999;
+    position: absolute;
+    line-height: 58px;
+    left: 100px;
+    top: 170px;
+}
+#slogan {
+    font-size: 20px;
+    position: absolute;
+    z-index: 999;
+    color: #434343;
+    left: 124px;
+    top: 258px;
+}
+#titleBtnFst {
+    z-index: 999;
+    position: absolute;
+    left: 138px;
+    top: 308px;
+}
+#titleBtnScd {
+    z-index: 999;
+    position: absolute;
+    left: 278px;
+    top: 308px;
+}
+.titleLittleBtn {
+    padding: 10px 20px;
+    border: 1px solid #c4c4c4;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #76d5fa;
+    z-index: 999;
+    outline: none;
+}
+.titleLittleBtn > a {
+    z-index: 999;
+    color: #fff;
+}
+/*导航条*/
+.navLi {
+    display: inline-block;
+    clear: both;
+    margin: 60px 40px 20px 40px;
+}
+.navLi:first-child {
+    margin-left: 484px;
+}
+.categoryList {
+    color: #969494;
+}
+.categoryList:hover, .categoryList:active {
+    color: #3fb8f7;
+    border-bottom: 1px solid #3fb8f7;
+}
+/*比赛详情*/
+.datailPiece {
+    width: 80%;
+    margin: 0 auto;
+}
+.classificationTitle {
+    font-size: 24px;
+    color: #3a3f41;
+    padding: 20px 0;
+    margin: 10px 0;
+    clear: both;
+}
+.iconfont {
+    color: #18baf8;
+    margin: 0 5px;
+}
+.listIcon {
+    margin:0 5px;
+    color: #29bc67;
+}
+#matchIntroduce {
+    overflow: hidden;
+    padding: 30px 0 30px 300px;
+    margin: 10px 0 25px 42px;
+    border-radius: 5px;
+}
+#matchIntroduceImg {
+  float: left;
+}
+#matchList > li {
+    display: block;
+    padding: 10px 5px;
+    margin: 10px 0;
+    clear: both;
+    height: 50px;
+}
+.littleTitle {
+    color: #474748;
+    float: left;
+    line-height: 50px;
+    width: 150px;
+    text-align: center;
+}
+.littleContent {
+    float: right;
+    width: 80%;
+    height: 80px;
+    overflow: hidden;
+    margin: 0 5px;
+    background-color: #f8fbfc;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+/*题目区域*/
+#matchArea {
+    width: 65%;
+    margin: 0 auto;
+}
+#matchTitle {
+    border: 1px solid #cdcdcd;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #fbf8e5;
+}
+#pushFile {
+    font-size: 16px;
+    padding: 8px 40px;
+    margin: 24px 0;
+    border-radius: 10px;
+    border: 1px solid #cdcdcd;
+    background-color: #fefbf6;
+    float: left;
+}
+#submitBtn {
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 24px 20px;
+    padding: 11px 20px;
+    background-color: #fefbf6;
+    border: 1px solid #cdcdcd;
+    float: left;
+}
+.subheading {
+    font-size: 20px;
+    margin: 10px 0;
+}
+.testText {
+    margin: 8px 0;
+}
+.subSubheading {
+    margin: 5px 0;
+    font-size: 16px;
+} 
+#littleAttention {
+    color: #ee5e5e;
+    font-size: 16px;
+}
+.testImg {
+    text-align: center;
+}
+/*团队介绍*/
+.classificationIntroduction {
+    float: left;
+    padding: 10px 12px;
+    margin: 10px 150px;
+}
+.basicInformation {
+    font-size: 24px;
+    margin: 10px 0 30px 0;
+}
+.cinsImg {
+    height: 300px;
+    width: 200px;
+    float: left;
+}
+.briefIntroduction {
+    float: left;
+    margin: 10px 40px;
+}
+.briefIntroduction > li {
+    display: block;
+}
+.teamName {
+    font-size: 30px;
+    color: #3ca9ee;
+    margin: 20px 0;
+}
+.teamEName {
+    font-size: 22px;
+    color: #676869;
+    margin: 15px 0;
+    font-style: italic;
+}
+.teamWork {
+    color: #8d8d8d;
+    margin: 5px 0;
+    font-size: 20px;
+}
+#detailedDescription {
+    clear: both;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*固定导航条*/
+#navigationBar {
+    position: fixed;
+    right: 0;
+    top: 400px;
+    z-index: 999;
+}
+.navigationBarList {
+    display: block;
+    padding: 5px 15px;
+    border-bottom: 1px solid #c4c4c4;
+}
+.navigationBarList > a {
+    font-size: 18px;
+    color: #3fb8f7;
+}
+/*时间轴*/
+#meetingTime {
+    font-size: 24px;
+    color: ;
+
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+ }
+ .cont{
+  width:1000px;
+  margin:0 auto;
+ }
+ .biz-timeline-box{
+  width:785px;
+  margin: 0 auto 45px;
+ }
+ /*奇数 odd*/
+ .biz-timeline-box:nth-child(odd) .biz_timeline-eventbox{
+  -webkit-border-radius: 0 40px 40px 0;
+  -moz-border-radius: 0 40px 40px 0;
+  border-radius: 0 40px 40px 0;
+  float:right;
+ }
+ /*偶数 even*/
+ .biz-timeline-box:nth-child(even) .biz_timeline-eventbox{
+  -webkit-border-radius: 40px 0 0 40px;
+  -moz-border-radius: 40px 0 0 40px;
+  border-radius: 40px 0 0 40px;
+  float:left;
+ }
+ /*奇数 odd*/
+ .biz-timeline-box:nth-child(odd) .biz_timeline-event{
+  -webkit-border-radius:0 30px 30px 0;
+  -moz-border-radius:0 30px 30px 0;
+  border-radius:0 30px 30px 0;
+ }
+ /*偶数 even*/
+ .biz-timeline-box:nth-child(even) .biz_timeline-event{
+  -webkit-border-radius: 30px 0 0 30px;
+  -moz-border-radius: 30px 0 0 30px;
+  border-radius: 30px 0 0 30px;
+ }
+ .biz-timeline-box:nth-child(odd) .biz_timeline-time{
+  float:left;
+  width:344px;
+  text-align: right;
+ }
+ .biz-timeline-box:nth-child(even) .biz_timeline-time{
+  float:right;
+  width:344px;
+  text-align: left;
+ }
+ .biz-timeline-box:nth-child(even) .biz_timeline-node{
+  float:right;
+ }
+ .biz-timeline-box:nth-child(odd) .biz_timeline-node{
+  float:left;
+ }
+ .biz_timeline-time{
+  font-size:16px;
+  color:#6d7f9f;
+  font-weight: 600;
+  line-height:73px;
+ }
+ .biz_timeline-eventbox{
+  width: 336px;
+  border: 4px solid #6d7f9f;
+  text-align: center;
+ }
+ .biz_timeline-event{
+  width:323px;
+  margin:6px;
+  color:#fff;
+  background:#6d7f9f;
+  text-align: center;
+  font-size:16px;
+  line-height:35px;
+ }
+
+ .biz_timeline-node:before {
+    position: absolute;
+    top: 12px;
+    content:"";
+    width: 8px;
+    height: 120px;
+    background-color: #cdcdcd;
+ }
+#timeLineNode-Lastchild:before {
+    width: 0;
+ }
+ .biz_timeline-node{
+    position: relative;
+  width:8px;
+  height:8px;
+  border-radius: 50%;
+  background: #fff;
+  border:4px solid #b22b2b;
+  margin:29px 40px;
+ }
+ .biz_timtline-box{
+  position: relative;
+  margin-top:100px;
+ }
+ .biz_timeline{
+  z-index:20;
+  position:relative;
+ }
